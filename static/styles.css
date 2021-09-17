@@ -1,0 +1,84 @@
+.ref{
+    text-decoration: none;
+    color: #000;
+    font-family: Georgia;
+}
+
+.menu-block{
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-left: 15px;
+    border: 2px solid #000;
+    border-radius: 10px 10px 10px 10px;
+    background: #A6b9c0;
+    max-width: 300px;
+    border-bottom: none;
+}
+
+.main-block{
+    border: 2px solid #000;
+    background: #a1c1c0;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    max-width: 1000px;
+    border-bottom: none;
+}
+
+.general{
+    max-width: 1400px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    align-content: stretch;
+    height: 1200px;
+}
+
+.endblock{
+    border: 2px solid #000;
+    border-radius: 10px 10px 10px 10px;
+    width: 1325px;
+}
+
+#endtext{
+    margin-left: 30px;
+}
+
+.line-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.line-block-elem{
+    margin-left: 20px;
+    max-width: 600px;
+    font-size: 18px;
+}
+
+table.line-block-elem {
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 20px;
+    border: 2px solid #000;
+
+}
+
+td, th {
+    padding: 5px;
+    border: 1px double #000;
+}
+
+.bordered-image{
+    border: 2px solid #000;
+}
+
+.bordered-image:hover{
+    border: 2px solid #c0c0c0;
+}

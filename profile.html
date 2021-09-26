@@ -3,11 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Профиль</title>
-    <link rel="stylesheet" type="text/css" href="static/styles.css">
+    <link rel="stylesheet" type="text/css" href="static/container_file_style.css">
     <link rel="stylesheet" type="text/css" href="static/list_styles.css">
 </head>
 <body>
-    <h1>Псевдо-профиль</h1>
-    <p><a href="visitka.html"><img src="static/back.png" width="400" height="300" class="bordered-image"></a></p>
+    <h1>Контейнер с полем ввода</h1>
+    <hr>
+    <div class="main">
+        <p><a href="visitka.html" id="back">обратно к визитке</a></p>
+        <div class="con">
+            <div class="con-elem">
+                <form name="container">
+                    <input type="text" name="sum" placeholder="введите cумму в долларах" class="input-field"/>
+                    <input type="submit" value="перевести в рубли"/>
+                </form>
+            </div>
+            <div class="con-elem">
+                <input id="output" class="output-field" disabled>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        document.forms.container.onsubmit = function() {
+            var sum = this.sum.value;
+            document.getElementById('output').value = sum * 72.7 + "р";
+            return false;
+        };
+    </script>
+
 </body>
 </html>

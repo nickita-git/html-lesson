@@ -4,8 +4,8 @@
     background: #c0c0c0;
     display: inline-block;
     border: 2px solid #000;
-    font-size: 24px;
-    margin-left: 5px
+    font-size: 20px;
+    margin-left: 0px
 }
 
 .menu:first-child{
@@ -51,4 +51,24 @@
 
 .navigation:last-child{
     border: 2px solid #000;
+}
+
+.pers-data-list{
+    background: #c0c0c0;
+    list-style-type: none;
+
+}
+
+.pers-data-list-elem{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -35px;
+    border-top: 2px solid #000;
+
+}
+
+.output-data{
+    width: 250px;
+    font-size: 16px;
 }

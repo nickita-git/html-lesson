@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding:0;
+}
+
+.ref{
+    text-decoration: none;
+    color: #000;
+    font-family: Georgia;
+}
+
+.menu-block{
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 15px;
+    border: 3px solid #A6b9c0;
+    border-radius: 10px 0px 0px 0px;
+    background: #A6b9c0;
+    width: 23%;
+    border-bottom: none;
+    margin-right: 0px;
+}
+
+.input-block{
+    box-sizing: border-box;
+    border: 2px solid #bacfbd;
+    border-right-width: 2px;
+    border-radius: 0px 10px 0px 0px;
+    width: 22%;
+    margin-left: 0px;
+    background: #bacfbd;
+    border-bottom: none;
+    padding: 10px;
+}
+
+.main-block{
+    box-sizing: border-box;
+    border: 2px solid #a1c1c0;
+    border-right-width: 3px;
+    background: #a1c1c0;
+    border-radius: 0px 0px 0px 0px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    width: 55%;
+    border-bottom: none;
+}
+
+.general{
+    max-width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    align-content: stretch;
+    height: 1200px;
+}
+
+.endblock{
+    border: 2px solid #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#endtext{
+    margin-left: 30px;
+}
+
+#pers-data{
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    background: #E0E0E0;
+    margin-bottom: 25px;
+    max-width: 600px;
+}
+
+
+.line-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.line-block-elem{
+    margin-left: 0px;
+    max-width: 500px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+table.line-block-elem {
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 20px;
+    border: 2px solid #000;
+
+}
+
+.input-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.input-form-elem{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px double #000;
+}
+
+.bordered-image{
+    border: 2px solid #000;
+}
+
+.bordered-image:hover{
+    border: 2px solid #c0c0c0;
+}

@@ -1,0 +1,50 @@
+.main{
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.con{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    column-gap: 20px;
+    background-color: #a1c1c0;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px double #000;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.con-elem{
+    margin-top: 0px;
+}
+
+.con-elem:first-child{
+    margin-top: 20px;
+}
+
+
+.con-elem:last-child{
+    margin-bottom: 20px;
+}
+
+.input-field{
+    width: 75%;
+}
+
+.output-field{
+    width:95%;
+}
+
+#back{
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+    color: #000;
+}
+
+#back:hover{
+    background: #c0c0c0;
+}

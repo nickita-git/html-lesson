@@ -1,0 +1,39 @@
+#general_block{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 4px double #000;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+    max-height: 400px;
+    max-width: 600px;
+    background-color: #635d9e;
+    padding: 20px;
+}
+
+#answers_block{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#anew{
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.variant{
+    background-color: #726acc;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.variant:hover{
+    background-color: #e5e155;
+}
